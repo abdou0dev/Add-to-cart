@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fefae0;
+    font-family: 'Ubuntu', sans-serif;
+    user-select: none;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+input, button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 5px auto;
+    
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input {
+    background: #faedcd;
+    width: 250px;
+}
+
+button {
+    background: #ccd5ae;
+    width: 280px;
+}
+
+button:hover {
+    background-color: #d4a373;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    background-color: #e9edc9;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ul li:hover {
+    background-color: #bbbea0;
+    cursor: pointer;
+}
